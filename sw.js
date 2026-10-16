@@ -5,7 +5,7 @@
 //
 // Après une modification de l'appli (nouvelle photo de couverture, logo, code...),
 // changez le numéro de version ci-dessous pour forcer la mise à jour chez les utilisateurs.
-const VERSION = 'v4';
+const VERSION = 'v5';
 const CACHE = 'english-coach-' + VERSION;
 
 const ASSETS = [
