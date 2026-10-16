@@ -1,1 +1,20 @@
+name = "english-coach"
+main = "worker.js"
+compatibility_date = "2026-10-01"
 
+[vars]
+# Adresse(s) de votre appli, séparées par des virgules (ex. "https://mon-coach.pages.dev").
+# "*" accepte tout le monde : pratique pour tester, à remplacer avant la mise en ligne.
+ALLOWED_ORIGIN = "*"
+
+# Fournisseur utilisé si l'appli n'en précise pas : "claude" ou "gemini".
+DEFAULT_PROVIDER = "claude"
+
+# Modèles (modifiables sans toucher au code).
+CLAUDE_MODEL = "claude-haiku-5-5"
+GEMINI_MODEL = "gemini-3.5-flash-lite"
+
+# Les clés ne vont JAMAIS ici. Ajoutez-les avec :
+# npx wrangler secret put ANTHROPIC_API_KEY (Claude, payant)
+# npx wrangler secret put GEMINI_API_KEY (Gemini, palier gratuit)
+# Une seule des deux suffit pour commencer.
