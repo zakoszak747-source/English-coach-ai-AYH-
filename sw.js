@@ -1,3 +1,4 @@
+
 // Service worker de My English AI Coach.
 // - L'interface s'ouvre même sans réseau (le chat, lui, a besoin d'internet).
 // - Réseau d'abord : vous avez toujours la dernière version quand vous êtes en ligne.
@@ -5,7 +6,7 @@
 //
 // Après une modification de l'appli (nouvelle photo de couverture, logo, code...),
 // changez le numéro de version ci-dessous pour forcer la mise à jour chez les utilisateurs.
-const VERSION = 'v5';
+const VERSION = 'v6';
 const CACHE = 'english-coach-' + VERSION;
 
 const ASSETS = [
